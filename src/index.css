@@ -1,0 +1,75 @@
+/* root */
+:root {
+  --fresh-green: #30b635;
+  --sunny-yellow: #FFEB3B;
+  --rich-earth-brown: #795548;
+  --clean-white: #FFFFFF;
+  --cool-teal: #009688;
+}
+
+/* APP STYLES */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+/* HEADER STYLES */
+.nav-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 0;
+  margin: 0 0 2rem 0;
+}
+
+.nav-icons li i {
+  font-size: 2rem;
+}
+
+.nav-icons .tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav-icons .tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.nav-icons .tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.fa {
+  color: var(--cool-teal);
+  padding: 1rem;
+  border-radius: 10px;
+  transition: color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.fa:hover {
+  color: var(--sunny-yellow);
+  background-color: var(--cool-teal);
+  cursor: pointer;
+}
