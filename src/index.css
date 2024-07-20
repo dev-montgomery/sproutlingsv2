@@ -19,6 +19,36 @@
   min-height: 100dvh;
 }
 
+/* images */
+.products {
+  background-size: cover; /* or contain, depending on your needs */
+  background-repeat: no-repeat; /* to prevent repeating */
+  background-position: center; /* to center the image */
+}
+#radish {
+  background-image: url('./assets/radishsprouts.png');
+}
+
+#broccolisprouts {
+  background-image: url('./assets/broccolisprouts.png');
+}
+
+#sunflowershoots {
+  background-image: url('./assets/sunflower.png');
+}
+
+#peashoots {
+  background-image: url('./assets/peashoots.png');
+}
+
+#wheatgrass {
+  background-image: url('./assets/wheatgrass.png');
+}
+
+#saladmix {
+  background-image: url('./assets/saladmix.png');
+}
+
 /* HEADER STYLES */
 .nav-icons {
   display: flex;
