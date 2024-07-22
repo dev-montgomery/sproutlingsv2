@@ -33,7 +33,10 @@ const Home = ({ microgreens }) => {
         <ul>
           {products}
         </ul>
-        <Content content={content} />
+        <Content 
+          updateContent={updateContent}
+          content={content}
+        />
       </div>
 
       <div className="mobile-home">

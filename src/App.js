@@ -8,7 +8,7 @@ function App() {
 
   const microgreens = {
     radish: {
-      name: "Radish Microgreens",
+      name: "radish sprouts",
       description: "Radish microgreens are young seedlings of the radish plant harvested just after the first true leaves have developed. They are small, tender, and vibrant, with a peppery flavor similar to that of mature radishes but often more intense. Radish microgreens are popular for their crisp texture and nutrient density.",
       diet: {
         salads: "Add a handful of radish microgreens to mixed green salads for an extra burst of flavor and a peppery kick.",
@@ -32,7 +32,7 @@ function App() {
       },
     },
     broccolisprouts: {
-      name: "Broccoli Sprouts",
+      name: "broccoli sprouts",
       description: "Broccoli sprouts microgreens are the young seedlings of the broccoli plant, harvested just after the cotyledon leaves have developed. They are small, delicate, and packed with a slightly milder flavor compared to mature broccoli, with a fresh and crunchy texture.",
       diet: {
         salads: "Add a generous handful of broccoli sprouts microgreens to mixed salads for a fresh and nutritious boost.",
@@ -56,7 +56,7 @@ function App() {
       },
     },
     sunflowershoots: {
-      name: "Black Oil Sunflower",
+      name: "sunflower shoots",
       description: "Black oil sunflower microgreens are the young shoots of sunflower plants, harvested when they are about 1-3 inches tall. They are known for their crunchy texture and nutty flavor, making them a versatile addition to various dishes.",
       diet: {
         salads: "Add a handful of sunflower microgreens to salads for a crunchy texture and a nutty taste.",
@@ -82,7 +82,7 @@ function App() {
       },
     },
     peashoots: {
-      name: "Peashoots",
+      name: "pea shoots",
       description: "Peashoot microgreens are young, tender shoots of pea plants harvested when they are about 1-3 inches tall. They have a sweet, slightly pea-like flavor with a crisp texture, making them a delightful addition to various dishes.",
       diet: {
         salads: "Peashoot microgreens can be used as a base or garnish for salads, adding a fresh, crunchy element. They pair well with other vegetables, fruits, nuts, and a light vinaigrette.",
@@ -103,7 +103,7 @@ function App() {
       },
     },
     wheatgrass: {
-      name: "Wheat Grass",
+      name: "wheat grass",
       description: "Wheatgrass microgreens are young shoots of the wheat plant (Triticum aestivum), typically harvested when they are about 7-10 days old. Known for their vibrant green color and mild, sweet taste, wheatgrass microgreens are often juiced or added to smoothies but can also be incorporated into various other dishes.",
       diet: {
         juicesAndSmoothies: "Blend wheatgrass microgreens into green juices or smoothies for a nutritional boost. Their mild flavor pairs well with fruits and other greens.",
@@ -129,7 +129,7 @@ function App() {
       },
     },
     saladmix: {
-      name: "Salad Mix Variety",
+      name: "salad mix variety",
       description: "Salad mix variety microgreens are a blend of different young seedlings typically harvested when they are about 1-3 inches tall. This mix can include microgreens such as arugula, radish, mustard, kale, and mizuna. Each type of microgreen in the mix adds unique flavors, textures, and nutritional benefits, making salad mix variety microgreens a versatile and nutrient-dense option.",
       diet: {
         salads: "Use salad mix variety microgreens as the base or a component of mixed salads for diverse flavors and textures.",
