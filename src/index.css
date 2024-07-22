@@ -8,6 +8,10 @@
 }
 
 /* APP STYLES */
+.App {
+  position:fixed;
+}
+
 .app-container {
   display: flex;
   flex-direction: column;
@@ -169,6 +173,15 @@
   cursor: pointer;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  height: 100dvh;
+  width: 100vw;
+}
+
 .content-container {
   display: block;
   position: fixed;
@@ -184,13 +197,18 @@
   max-width: 90vw;
   overflow-y: auto;
   z-index: 1000;
+  font-size: 1.2rem;
+}
+
+.content-container p {
+  padding: 0rem 1rem 1rem 1rem;
 }
 
 .hidden {
   display: none;
 }
 
-.close-window {
+/* .close-window {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -206,7 +224,7 @@
 .close-window:hover {
   cursor: pointer;
   background-color: var(--rich-earth-brown);
-}
+} */
 
 
 @media (max-width: 1300px) {

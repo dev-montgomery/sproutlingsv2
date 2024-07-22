@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Content = ({ updateContent, content }) => {
+const Content = ({ content }) => {
   return (
     <div className={content === null ? "hidden" : "content-container"}>
-      <div className="close-window" onClick={() => updateContent(null)}>X</div>
+      {/* <div className="close-window" onClick={() => updateContent(null)}>X</div> */}
       {content}
     </div>
   );

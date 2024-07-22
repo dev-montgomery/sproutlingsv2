@@ -29,12 +29,13 @@ const Home = ({ microgreens }) => {
 
   return (
     <div className="home-container">
+      <div className={content === null ? "hidden" : "overlay"} onClick={() => updateContent(null)}></div>
       <div className="desktop-home">
         <ul>
           {products}
         </ul>
         <Content 
-          updateContent={updateContent}
+          // updateContent={updateContent}
           content={content}
         />
       </div>
