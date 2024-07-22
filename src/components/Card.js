@@ -34,10 +34,10 @@ const Card = ({ updateContent, name, description, diet, benefits, availability }
   });
 
   return (
-    <div className="card">
-      <h2 className="primary">{name}</h2>
+    <div className="card-container">
+      <h2 className="card-h2">{name}</h2>
       <p className={availability ? "green availability" : "brown availability"}>{availability ? "AVAILABLE" : "UNAVAILABLE"}</p>
-      <div className="card-info">
+      <div className="card-btns">
         <button className="card-btn" onClick={() => updateContent(description)}>DESCRIPTION</button>
         <button className="card-btn" onClick={() => updateContent(dietSection)}>DIET</button>
         <button className="card-btn" onClick={() => updateContent(benefitsSection)}>BENEFITS</button>

@@ -14,7 +14,7 @@ const Home = ({ microgreens }) => {
   const products = Object.keys(microgreens).map((key, index) => {
     const microgreen = microgreens[key];
     return (
-      <li key={index} className="left-side">
+      <li key={index} id={key} className="products">
         <Card
           updateContent={updateContent}
           name={microgreen.name}
@@ -33,7 +33,10 @@ const Home = ({ microgreens }) => {
         <ul>
           {products}
         </ul>
-        <Content content={content} />
+        <Content 
+          updateContent={updateContent}
+          content={content}
+        />
       </div>
 
       <div className="mobile-home">
